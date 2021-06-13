@@ -1,0 +1,23 @@
+Part 1: Energy Stability and Market Outages
+
+Energy stability is one of the key themes the AEMR management team cares about. To ensure energy security and reliability, AEMR needs to understand the following:
+
+What are the most common outage types and how long do they tend to last?
+How frequently do the outages occur?
+Are there any energy providers that have more outages than their peers which may indicate that these providers are unreliable?
+
+These questions have been broken down into more detail below. Please download a copy of the dataset located here.
+Note about using the dataset: The column names supplied in the sample tables must exactly match the column names in your SQL query. This is because the platform is CASE SENSITIVE. If they do not match, the Next.Tech Checker will not mark your query as correct even if the numbers are correct but the column names are different.
+Please note that for the whole AEMR Case Study we are only interested in the Outages where the Status = Approved.
+Upon completing all these questions, download the AEMR.csv file and use this in Tableau/PowerBI to craft your story. You can check your answers you've created using the .csv files you've downloaded from each of the Queries you've completed.
+Let's get started!
+
+
+
+
+Question 1.1: In the AEMR dataset, write a SQL statement that COUNTS the number of valid (i.e. Status = Approved) outage events for 2016. This should be grouped by and ordered by the outage reason. The output of your query should have the following column headers:
+Please note that we are expecting you to use YEAR() as opposed to EXTRACT() when working with the Start_Time column.
+We've included a refresher on the SQL Syntax provided here:
+
+SELECT FROM WHERE GROUP BY ORDER BY
+
